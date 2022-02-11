@@ -15,9 +15,7 @@ app.post("/", (req, res) => {
   const { nombre } = req.body;
 
   res.send(`
-  <div> 
     <h1>Hola ${nombre}!</h1>
-    </div>
   `);
 });
 
